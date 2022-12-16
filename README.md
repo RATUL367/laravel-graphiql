@@ -34,7 +34,7 @@ You will find the configuration file at `config/graphiql.php`.
 
 ### Lumen
 
-If you are using Lumen, copy it into that location manually and load the configuration
+If you are using Lumen, run this command `cp vendor/mll-lab/laravelgraphiql/src/graphiql.php config/graphiql.php` and load the configuration
 in your `boostrap/app.php`:
 
 ```php
